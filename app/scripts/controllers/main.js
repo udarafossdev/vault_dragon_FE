@@ -8,10 +8,13 @@
  * Controller of the vaultDragonFeApp
  */
 angular.module('vaultDragonFeApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, $http) {
+    
+    $scope.sendGetRequest = function() {
+
+    }
+
+    $scope.sendPostRequest = function() {
+      
+    }
   });
